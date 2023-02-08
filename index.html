@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+  <div class="box1">
+    <img src="./images/logo.svg" alt="logo">
+  </div>
+  <div class="box2">
+    <img src="./images/hero-desktop.jpg" alt="hero-desktop">
+  </div>
+  <div class="box3">
+    <h1><span>We're</span> coming soon</h1>
+    <p>Hello fellow shoppers! We're currently building our new fashion store. 
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    <div class="box3-footer">
+      <input type="text" placeholder="Email Address">
+      <button id="btn">&#8250;</button>
+    </div>
+    <div id="valid"><p>Please provide a valid e-mail</p></div>
+  </div>
+<script>
+  document.getElementById('btn').onclick = function(){
+    document.getElementById('valid').style.display = 'block'
+  }
+ 
+</script>
+</body>
+</html>
